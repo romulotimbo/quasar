@@ -1,0 +1,26 @@
+{
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      // Prettier option here
+      "semi": false
+    }
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+"typescript.format.semicolons": "remove",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,  
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur",
+  }
+  
+}
